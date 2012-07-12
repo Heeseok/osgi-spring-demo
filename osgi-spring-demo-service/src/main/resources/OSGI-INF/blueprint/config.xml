@@ -1,0 +1,7 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+	<service ref="defaultDemoService" interface="ch.hsr.ins.osgi.spring.demo.DemoService" />
+
+	<bean id="defaultDemoService" class="ch.hsr.ins.osgi.spring.demo.internal.DefaultDemoService" init-method="start"/>
+
+</blueprint>
